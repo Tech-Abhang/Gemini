@@ -91,7 +91,10 @@
     padding: 10px 20px;
     border-radius: 50px;
     width: 100%; /* Ensuring it takes full width */
-    transform: translateX(250px); /* Moves it 250px left */
+    
+    position: absolute;  /* Position relative to the nearest positioned ancestor */
+    bottom: 20px;       /* 10px from the bottom */
+    left: 250px;
 }
 
 .search-box input {
